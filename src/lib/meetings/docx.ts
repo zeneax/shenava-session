@@ -242,7 +242,7 @@ export async function buildMeetingDocx(input: {
     : meeting.notes ? edition(meeting.notes, meeting.sections, lang) : [];
 
   const doc = new Document({
-    creator: studioName(studio, lang) || "Shenava",
+    creator: studioName(studio, lang) || "Shenava Session",
     title: meeting.title || partTitle(part, "en"),
     styles: {
       default: { document: { run: { font: FONT, size: 22, language: LANGUAGE[lang] } } },

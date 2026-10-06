@@ -1,6 +1,6 @@
-# Shenava — product requirements
+# Shenava Session — product requirements
 
-**Shenava** (شنوا, "hearing") turns a recorded consultation into three things:
+**Shenava Session** (شنوای جلسه, "hearing") turns a recorded consultation into three things:
 a transcript, a dialogue with the two speakers told apart, and a draft of the
 proposal that meeting should produce — in Persian and English at once.
 
@@ -28,7 +28,7 @@ write a proposal from than a page of notes, because nothing in it is marked:
 you cannot tell who said a sentence, and the four sentences that matter are
 buried in six thousand words.
 
-So Shenava does three passes, each of which is useless without the one before
+So Shenava Session does three passes, each of which is useless without the one before
 it, and stops before the part that needs a person.
 
 ---
@@ -78,7 +78,7 @@ and the answer has a token ceiling. An hour of speech breaks both. So the
 recording must be cut, and **how** you cut it is the entire performance
 characteristic of this product.
 
-Shenava offers two modes, chosen on the form when the meeting is created.
+Shenava Session offers two modes, chosen on the form when the meeting is created.
 Mode B is the one offered first and chosen by default; a browser with no Opus
 encoder falls back to mode A, since the default must never be the disabled one.
 Neither is stored as a setting: `inferMode()` reads the mode back off the
@@ -93,7 +93,7 @@ The 60 comes from `@mazarix/voice-kernel`, a small MIT package on npm
 tuned number in this pipeline — the prompt that decides how an embedded Latin
 word comes out of Persian speech, the retry policy, the timeout curve, the
 rescue engine for a refused answer, and the bidi algorithm that keeps Latin
-words where they were spoken. **Nothing in Shenava may hard-code one of those
+words where they were spoken. **Nothing in Shenava Session may hard-code one of those
 numbers.** A local copy is how two programs silently start transcribing
 differently, and no test can see the drift. Read them from the package.
 

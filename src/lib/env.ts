@@ -22,7 +22,7 @@ export const openRouterKey = () => read("OPENROUTER_API_KEY");
 export const appPassword = () => read("APP_PASSWORD");
 
 export const openRouterApp = () => ({
-  name: read("OPENROUTER_APP_NAME") || "Shenava",
+  name: read("OPENROUTER_APP_NAME") || "Shenava Session",
   url: read("OPENROUTER_APP_URL") || "http://localhost:3100",
 });
 

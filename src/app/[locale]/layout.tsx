@@ -38,7 +38,7 @@ export async function generateMetadata({
   return {
     // Both scripts, in both editions: it is the same application read by two
     // readers, and the title bar is where that is most obvious.
-    title: "Shenava · شنوا",
+    title: "Shenava Session · شنوای جلسه",
     description: brand("description"),
   };
 }

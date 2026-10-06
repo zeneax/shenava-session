@@ -10,7 +10,7 @@ import { Monitor, Moon, Sun } from "lucide-react";
  * WHY THIS HAD TO EXIST. `globals.css` has carried a `[data-theme]` block since
  * the beginning and nothing ever set the attribute, so the only thing that
  * decided which edition you saw was `prefers-color-scheme` — the operating
- * system. A reader whose Mac is in dark mode got the dark edition of Shenava
+ * system. A reader whose Mac is in dark mode got the dark edition of Shenava Session
  * with no way at all to ask for the light one, and the usual report of that is
  * "the application is too dark", which sounds like a palette problem and is not.
  *

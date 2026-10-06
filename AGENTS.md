@@ -1,6 +1,6 @@
-# Working on Shenava
+# Working on Shenava Session
 
-Shenava turns a recorded consultation into a transcript, a speaker-labelled
+Shenava Session turns a recorded consultation into a transcript, a speaker-labelled
 dialogue and a draft of the proposal that meeting should produce, in Persian and
 English at once.
 

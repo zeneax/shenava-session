@@ -1,4 +1,4 @@
-# Build prompt — Shenava
+# Build prompt — Shenava Session
 
 Hand this whole file to a capable coding agent (Claude Code, or any agent that
 can write files and run commands) in an **empty folder**. It is written to be
@@ -12,14 +12,14 @@ written as Persian rather than translated — either one on its own builds the
 same application.
 
 This file is kept in step with the repository it built. Everything below
-describes Shenava as it now stands, including the four or five decisions that
+describes Shenava Session as it now stands, including the four or five decisions that
 were made differently once and corrected.
 
 ---
 
 ## The prompt
 
-> Build **Shenava** — a web application that turns a recorded consultation into
+> Build **Shenava Session** — a web application that turns a recorded consultation into
 > a transcript, a speaker-labelled dialogue, and a draft of the proposal that
 > meeting should produce, in Persian and English at once.
 >

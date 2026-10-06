@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Shenava",
+    "name": "Shenava Session",
     "description": "A recorded consultation becomes a transcript, a dialogue with the two speakers told apart, and a draft of the proposal that meeting should produce — in Persian and English at once."
   },
   "nav": {
@@ -15,7 +15,7 @@
   "landing": {
     "eyebrow": "Open source · MIT",
     "title": "A recorded consultation becomes the proposal it should produce.",
-    "lede": "Drop in an hour of audio. Shenava writes down the words, tells the two speakers apart, and drafts the proposal under the template's headings — in Persian and English at once. Then it stops and waits for you.",
+    "lede": "Drop in an hour of audio. Shenava Session writes down the words, tells the two speakers apart, and drafts the proposal under the template's headings — in Persian and English at once. Then it stops and waits for you.",
     "openDashboard": "Open the dashboard",
     "passesTitle": "Three passes, each useless without the one before it",
     "pass1": {
@@ -69,7 +69,7 @@
     "cost": "Cost",
     "draft": "Draft",
     "notReady": "The database is not connected yet.",
-    "notReadyHint": "Open Connections and Shenava will tell you exactly what is missing."
+    "notReadyHint": "Open Connections and Shenava Session will tell you exactly what is missing."
   },
   "status": {
     "planned": "Planned",
@@ -82,7 +82,7 @@
   },
   "conn": {
     "title": "Connections",
-    "lede": "Three things have to answer before Shenava can do anything. Nothing here shows a key's value — only whether it has one.",
+    "lede": "Three things have to answer before Shenava Session can do anything. Nothing here shows a key's value — only whether it has one.",
     "supabase": "Supabase",
     "supabaseWhat": "Where the meetings, the transcripts and the drafts live.",
     "openrouter": "OpenRouter",
@@ -155,7 +155,7 @@
     "deleteConfirm": "Yes, delete it",
     "cancel": "Keep it",
     "resumeTitle": "Point at the recording again",
-    "resumeBody": "{pending} of {total} pieces are still to send. The audio was never stored — not here, not in the database, not anywhere — so choose the same file again and Shenava carries on from where it stopped. It checks the file's fingerprint before sending a single byte.",
+    "resumeBody": "{pending} of {total} pieces are still to send. The audio was never stored — not here, not in the database, not anywhere — so choose the same file again and Shenava Session carries on from where it stopped. It checks the file's fingerprint before sending a single byte.",
     "sending": "Sent {done} of {total}. One piece at a time; leave this tab open.",
     "mismatch": "That is a different recording. The fingerprint does not match the one this meeting was planned from, and sending it would fill the waiting pieces with the wrong seconds. Choose the original file, or delete this meeting and start again.",
     "replanned": "That file cuts into a different number of pieces than this meeting was planned with. It is probably a re-export rather than the original. Delete this meeting and create it again from the file you have.",

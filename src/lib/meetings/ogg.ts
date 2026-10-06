@@ -107,7 +107,7 @@ function opusHead(channels: number, preSkip: number, inputRate: number): Uint8Ar
 }
 
 function opusTags(): Uint8Array {
-  const vendor = text("Shenava");
+  const vendor = text("Shenava Session");
   const out = new Uint8Array(8 + 4 + vendor.byteLength + 4);
   const view = new DataView(out.buffer);
   out.set(text("OpusTags"), 0);

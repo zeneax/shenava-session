@@ -6,7 +6,7 @@ as Persian rather than translated — which is also the rule the product itself
 follows when it writes a proposal.
 
 **[`PRD.md`](PRD.md)** · **[`PRD.fa.md`](PRD.fa.md)** — the specification. What
-Shenava is, the two ways it cuts audio and why, the three failure modes of live
+Shenava Session is, the two ways it cuts audio and why, the three failure modes of live
 transcription providers, how every seat's output ceiling is computed, the data
 model, the screens, why there is no login, and what is deliberately left out of
 version one. Read this to understand the product.

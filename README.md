@@ -1,4 +1,4 @@
-<h1>Shenava · شنوا</h1>
+<h1>Shenava Session · شنوای جلسه</h1>
 
 **A recorded consultation becomes a transcript, a dialogue with the two
 speakers told apart, and a draft of the proposal that meeting should produce —
@@ -6,9 +6,9 @@ in Persian and English at once.**
 
 Fork it, run it locally, drop in an audio file, read the proposal it writes.
 
-**[نسخهٔ فارسی ←](README.fa.md)** · [read it in a Persian face](https://zeneax.github.io/shenava/)
+**[نسخهٔ فارسی ←](README.fa.md)** · [read it in a Persian face](https://zeneax.github.io/shenava-session/)
 
-![Shenava — the landing page](docs/images/landing-en.png)
+![Shenava Session — the landing page](docs/images/landing-en.png)
 
 > **Status: complete, and taken end to end on a real recording** — chosen,
 > cut, transcribed, told apart by speaker, and drafted. The unit suite and the
@@ -270,7 +270,7 @@ call, because it came from the seed file.
 In the header there is a switch for the other language and one for light, dark
 or whatever your machine says. It starts on your machine's setting and remembers
 a choice, so a reader whose laptop is in dark mode is not stuck with a dark
-Shenava.
+Shenava Session.
 
 **If something is wrong**, open **Connections** in the left rail. It repeats
 every check the setup script made and answers line by line: which variables are
